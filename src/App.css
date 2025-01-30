@@ -1,0 +1,57 @@
+/* Header */
+.header {
+  display: flex;
+    justify-content: space-between;
+      padding: 1rem;
+        background: #2c3e50;
+          color: white;
+          }
+
+          .coin-section {
+            display: flex;
+              align-items: center;
+                gap: 1rem;
+                }
+
+                /* Button Grid */
+                .button-grid {
+                  display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                      gap: 1rem;
+                        padding: 1rem;
+                        }
+
+                        .main-button {
+                          padding: 2rem;
+                            display: flex;
+                              flex-direction: column;
+                                align-items: center;
+                                  gap: 0.5rem;
+                                    background: #f0f0f0;
+                                      border: none;
+                                        border-radius: 10px;
+                                        }
+
+                                        /* Bottom Navigation */
+                                        .bottom-nav {
+                                          position: fixed;
+                                            bottom: 0;
+                                              width: 100%;
+                                                display: flex;
+                                                  justify-content: space-around;
+                                                    padding: 1rem;
+                                                      background: white;
+                                                        border-top: 1px solid #ddd;
+                                                        }
+
+                                                        .nav-item {
+                                                          display: flex;
+                                                            flex-direction: column;
+                                                              align-items: center;
+                                                                text-decoration: none;
+                                                                  color: #666;
+                                                                  }
+
+                                                                  .nav-item.active {
+                                                                    color: #3498db;
+                                                                    }
